@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike's Java CheatSheet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+</head>
+<body>
+<main class="container">
+    <h1 id="heading"><span id="mike">Mike's</span> <br><span style="color: black;">Java CheatSheet</span></br></h1>
+    <img src="Resources/java.png" alt="Java Logo" class="logo">
+    <h2 id="heading2">Topic: Java Basics</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Concept</th>
+                <th scope="col">Syntax</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data Types</td>
+                <td><code>int, double, boolean, char, String</code></td>
+                <td class="description">Basic data types in Java. <code>int</code> for integers, <code>double</code> for floating-point numbers, <code>boolean</code> for true/false, <code>char</code> for single characters, and <code>String</code> for text.</td>
+            </tr>
+
+            <tr>
+                <td>Variables</td>
+                <td><code>int age = 25;</code></td>
+                <td class="description">Variables store data. Declare with a type and name, then assign a value.</td>
+            </tr>
+
+            <tr>
+                <td>If-Else</td>
+                <td><pre><code>if (condition) {
+    // code
+} else {
+    // code
+}</code></pre></td>
+                <td class="description">Executes a block of code if a condition is true. Optionally, executes another block if the condition is false.</td>
+            </tr>
+
+            <tr>
+                <td>Loops</td>
+                <td><pre><code>for (int i = 0; i < 10; i++) {
+    // code
+}</code></pre></td>
+                <td class="description">Repeats a block of code a specified number of times. <code>for</code> loops are commonly used for iteration.</td>
+            </tr>
+
+            <tr>
+                <td>Methods</td>
+                <td><pre><code>public void myMethod() {
+    // code
+}</code></pre></td>
+                <td class="description">A block of code that performs a specific task. Methods can take parameters and return values.</td>
+            </tr>
+
+            <tr>
+                <td>Arrays</td>
+                <td><code>int[] numbers = {1, 2, 3};</code></td>
+                <td class="description">Stores multiple values of the same type in a single variable.</td>
+            </tr>
+
+            <tr>
+                <td>Classes</td>
+                <td><pre><code>public class MyClass {
+    // fields, methods, constructors
+}</code></pre></td>
+                <td class="description">A blueprint for creating objects. Contains fields (variables) and methods.</td>
+            </tr>
+
+            <tr>
+                <td>Objects</td>
+                <td><code>MyClass obj = new MyClass();</code></td>
+                <td class="description">An instance of a class. Created using the <code>new</code> keyword.</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="heading2">Common Methods</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Method</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>System.out.println()</code></td>
+                <td class="description">Prints text to the console and moves to the next line.</td>
+            </tr>
+            <tr>
+                <td><code>String.length()</code></td>
+                <td class="description">Returns the length of a string.</td>
+            </tr>
+            <tr>
+                <td><code>Math.max(a, b)</code></td>
+                <td class="description">Returns the larger of two values.</td>
+            </tr>
+            <tr>
+                <td><code>Arrays.sort(arr)</code></td>
+                <td class="description">Sorts an array in ascending order.</td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+</body>
+</html>
